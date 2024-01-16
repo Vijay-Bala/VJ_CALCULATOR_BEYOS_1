@@ -4,7 +4,7 @@ import Calculator from './components/Calculator';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import GraphingCalculator from './components/GraphingCalculator';
 import Navbar from './components/Navbar';
-// import PolynomialRootsCalculator from './components/PolynomialRootsCalculator';
+import PolynomialRootsCalculator from './components/PolynomialRootsCalculator';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <Router>
       <Navbar/>
         <Routes>
-        {/* <Route path="/PolynomialRootsCalculator" element={<PolynomialRootsCalculator />} /> */}
+        <Route path="/PolynomialRootsCalculator" element={<PolynomialRootsCalculator />} />z
           <Route path="/" element={<Calculator />} />
           <Route path="/GraphingCalculator" element={<GraphingCalculator />} />
         </Routes>
