@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/VJ_CALCULATOR_BEYOS_1/static/css/main.1a0f2b53.css",
+    "main.js": "/VJ_CALCULATOR_BEYOS_1/static/js/main.6c69567d.js",
+    "index.html": "/VJ_CALCULATOR_BEYOS_1/index.html",
+    "main.1a0f2b53.css.map": "/VJ_CALCULATOR_BEYOS_1/static/css/main.1a0f2b53.css.map",
+    "main.6c69567d.js.map": "/VJ_CALCULATOR_BEYOS_1/static/js/main.6c69567d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a0f2b53.css",
+    "static/js/main.6c69567d.js"
+  ]
+}
