@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import Calculator from './components/Calculator';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import GraphingCalculator from './components/GraphingCalculator';
 import Navbar from './components/Navbar';
 import PolynomialRootsCalculator from './components/PolynomialRootsCalculator';
 
@@ -14,7 +13,6 @@ function App() {
         <Routes>
         <Route path="/PolynomialRootsCalculator" element={<PolynomialRootsCalculator />} />z
           <Route path="/" element={<Calculator />} />
-          <Route path="/GraphingCalculator" element={<GraphingCalculator />} />
         </Routes>
       </Router>
     </div>

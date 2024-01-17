@@ -49,8 +49,8 @@ button {
   padding: 4.5px;
   border: none;
   border-radius: 5px;
-  background-color: #92dac4;
-  color: #000000;
+  background-color: blue;
+  color: #fff;
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s;
@@ -75,6 +75,9 @@ button {
 
 button:hover {
   background-color: rgb(223, 38, 38);
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+  transform-origin: unset;
 }
 
 button:active {

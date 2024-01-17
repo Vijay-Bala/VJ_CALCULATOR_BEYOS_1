@@ -9,12 +9,9 @@ const Navbar = (props) => {
     console.log(window.location.pathname);
   }, []);
 
-  const handleGraphingCalculatorClick = () => {
-    navigate("/GraphingCalculator");
+  const handlePolyCalculatorClick = () => {
+    navigate("/PolynomialRootsCalculator");
   };
-  // const handlePolyCalculatorClick = () => {
-  //   navigate("/PolynomialRootsCalculator");
-  // };
 
 
   const handleCalculatorClick = () => {
@@ -24,13 +21,10 @@ const Navbar = (props) => {
   return (
     <nav className={`navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode}`}>
       <div className="container-fluid">
-        <button className="btn btn-primary mx-1" onClick={handleGraphingCalculatorClick} style={{ borderRadius: '8px', padding: '8px 16px', fontSize: '16px' }}>
-          G-Cal
-        </button>
-        {/* <button className="btn btn-primary mx-1" onClick={handlePolyCalculatorClick} style={{ borderRadius: '8px', padding: '8px 16px', fontSize: '16px' }}>
+        <button className="btn btn-primary mx-1" onClick={handlePolyCalculatorClick} style={{ borderRadius: '8px', padding: '8px 16px', fontSize: '16px', background: 'blue' }}>
         P-Cal
-        </button> */}
-        <button className="btn btn-primary mx-1" onClick={handleCalculatorClick} style={{ borderRadius: '8px', padding: '8px 16px', fontSize: '16px' }}>
+        </button>
+        <button className="btn btn-primary mx-1" onClick={handleCalculatorClick} style={{ borderRadius: '8px', padding: '8px 16px', fontSize: '16px', background: 'blue' }}>
         S-Cal
         </button>
       </div>
