@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/VJ_CALCULATOR_BEYOS_1/static/css/main.1a0f2b53.css",
-    "main.js": "/VJ_CALCULATOR_BEYOS_1/static/js/main.6c69567d.js",
+    "main.css": "/VJ_CALCULATOR_BEYOS_1/static/css/main.55e5530b.css",
+    "main.js": "/VJ_CALCULATOR_BEYOS_1/static/js/main.8b50726c.js",
     "index.html": "/VJ_CALCULATOR_BEYOS_1/index.html",
-    "main.1a0f2b53.css.map": "/VJ_CALCULATOR_BEYOS_1/static/css/main.1a0f2b53.css.map",
-    "main.6c69567d.js.map": "/VJ_CALCULATOR_BEYOS_1/static/js/main.6c69567d.js.map"
+    "main.55e5530b.css.map": "/VJ_CALCULATOR_BEYOS_1/static/css/main.55e5530b.css.map",
+    "main.8b50726c.js.map": "/VJ_CALCULATOR_BEYOS_1/static/js/main.8b50726c.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a0f2b53.css",
-    "static/js/main.6c69567d.js"
+    "static/css/main.55e5530b.css",
+    "static/js/main.8b50726c.js"
   ]
 }
