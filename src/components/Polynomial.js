@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styles from "./polynomial.module.css";
 
-function PolynomialRootsCalculator() {
+function Polynomial() {
   const [a, setA] = useState('');
   const [b, setB] = useState('');
   const [c, setC] = useState('');
@@ -237,7 +237,7 @@ function PolynomialRootsCalculator() {
           {cubicRoots.length > 0 ? (
             <p>
               The roots of the cubic equation are: {cubicRoots.map((root, index) => (
-                <span key={index}>{root.toFixed(2)}</span>
+                <span key={index}>{root.toFixed(2)} </span>
               ))}
             </p>
           ) : (
@@ -249,4 +249,4 @@ function PolynomialRootsCalculator() {
   );
 }
 
-export default PolynomialRootsCalculator;
+export default Polynomial;

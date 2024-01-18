@@ -6,11 +6,11 @@ const Navbar = (props) => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    console.log(window.location.pathname);
+    console.log("Working");
   }, []);
 
   const handlePolyCalculatorClick = () => {
-    navigate("/PolynomialRootsCalculator");
+    navigate("/P");
   };
 
 

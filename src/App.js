@@ -3,17 +3,17 @@ import './App.css';
 import Calculator from './components/Calculator';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import PolynomialRootsCalculator from './components/PolynomialRootsCalculator';
+import Polynomial from './components/Polynomial';
 
 function App() {
   return (
     <div className='App'>
       <Router>
-      <Navbar/>
         <Routes>
-        <Route path="/PolynomialRootsCalculator" element={<PolynomialRootsCalculator />} />z
+        <Route path="/P" element={<Polynomial />} />z
           <Route path="/" element={<Calculator />} />
         </Routes>
+      <Navbar/>
       </Router>
     </div>
   );
